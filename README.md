@@ -32,3 +32,31 @@ Playwright TypeScript automation framework using the Page Object Model (POM) des
 
 ---
 
+---
+
+## ⚙️ Installation
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/mmarwan2026/his-playwright-pom-framework.git
+
+Navigate to project folder
+cd his-playwright-pom-framework
+Install dependencies
+npm install
+Install Playwright browsers
+npx playwright install
+▶️ Run Tests
+
+Run all tests:
+
+npx playwright test
+
+Run tests in headed mode:
+
+npx playwright test --headed
+
+Run a specific test file:
+
+npx playwright test tests/validlogin.spec.ts
